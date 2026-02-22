@@ -1,12 +1,12 @@
 const Projects = () => {
   const projects = [
     {
-      title: 'Developer Intelligence Agent',
-      description: 'AI-powered code assistant that reduces code review iterations by 40% and improves search performance to sub-500ms with Redis caching.',
-      tech: ['Python', 'Flask', 'ChromaDB', 'LangChain', 'Redis', 'React'],
-      github: 'https://github.com/iamdheemanth/dev-intelligence-agent',
-      featured: true
-    },
+  title: 'Developer Intelligence Agent',
+  description: 'AI-powered code assistant that reduces code review iterations by 40% and improves search performance to sub-1000ms with vector embeddings.',
+  tech: ['Python', 'Flask', 'ChromaDB', 'LangChain', 'Supabase', 'React'],
+  github: 'https://github.com/iamdheemanth/dev-intelligence-agent',
+  featured: true
+},
     {
       title: 'Dhvani Vihaara',
       description: 'AI-powered Kannada learning platform for specially-abled children. Improved engagement by 40% using multimodal AI integration.',

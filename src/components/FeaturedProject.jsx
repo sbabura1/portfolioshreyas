@@ -1,18 +1,17 @@
 const FeaturedProject = () => {
   const highlights = [
     'Reduced manual code review effort by 40%',
-    'Achieved sub-500ms semantic similarity search using embeddings and FAISS',
+    'Achieved sub-1000ms semantic similarity search using vector embeddings',
     'Designed scalable REST APIs for code analysis workflows',
-    'Integrated third-party LLM APIs with centralized error handling'
+    'Integrated LLM APIs with Supabase for data persistence'
   ];
 
-  const techStack = ['Spring Boot', 'LLM APIs', 'Sentence Transformers', 'FAISS', 'REST APIs'];
+  const techStack = ['Python', 'Flask', 'ChromaDB', 'LangChain', 'Supabase', 'React'];
 
   return (
     <section className="section-padding bg-neutral-900 light:bg-neutral-50">
       <div className="container-custom">
         
-        {/* Section Heading - Visible immediately, no animation */}
         <div className="mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-neutral-100 light:text-neutral-900 text-center">
             Featured Project
@@ -69,7 +68,7 @@ const FeaturedProject = () => {
                 </div>
 
                 
-                 <a href="https://github.com/iamdheemanth/dev-intelligence-agent"
+                   <a href="https://github.com/iamdheemanth/dev-intelligence-agent"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-6 py-3 bg-primary-600 text-white rounded-lg font-medium hover:bg-primary-700 transition-all duration-200 hover:shadow-lg"
